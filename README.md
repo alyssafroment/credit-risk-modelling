@@ -13,6 +13,10 @@ Predict the likelihood of a client defaulting in the next month based on their c
 - Python (pandas, scikit-learn, xgboost, matplotlib, seaborn)
 - Jupyter Notebook
 
+## Dataset
+- Contains 30,000 credit card clients in Taiwan from April 2005 to September 2005.
+- Includes target value clients who defaulted in the following month (October 2005)
+
 ## Features
 The dataset includes features such as:
 Credit_Limit – Credit limit of the client
@@ -21,7 +25,7 @@ Repayment Status (RS_Sept) –  repayment history in most recent momth (Septembe
 Bill Amount (BA_Sept) – Amount of bill statement in most recent month (September)
 Payment Amounts (PA_Sept … PA_April) – Past 6 month payments
 RS_avg, BA_avg, RS_late_count – Aggregated features for client history
-default_in_oct - target feature, binary client default in October
+default_in_oct - target feature, default payment (1=yes, 0=no)
 
 ## Models
 Logistic Regression – Basic linear model for classification
