@@ -28,9 +28,9 @@ The dataset includes features such as:
 - default_in_oct - target feature, default payment (1=yes, 0=no)
 
 ## Models
-Logistic Regression – Basic linear model for classification
-Random Forest – Ensemble of decision trees, tuned to improve recall
-XGBoost – Gradient boosting model, tuned for best performance in capturing defaulters
+- Logistic Regression – Basic linear model for classification
+- Random Forest – Ensemble of decision trees, hyperparameters tuned to improve recall
+- XGBoost – Gradient boosting model, hyperparameters tuned for best performance in capturing defaulters
 
 ## Key Findings
 - Hyperparameter tuning improved both Random Forest and XGBoost model recall, which is critical for identifying clients at risk of default.
